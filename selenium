@@ -1,0 +1,8 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.common.exceptions import TimeoutException
+import sys
+sys.path.append("../page_object")
+from selenium.webdriver.common.action_chains import ActionChains #鼠标事件
+from selenium.common.exceptions import NoSuchElementException
