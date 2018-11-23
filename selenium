@@ -6,3 +6,4 @@ import sys
 sys.path.append("../page_object")
 from selenium.webdriver.common.action_chains import ActionChains #鼠标事件
 from selenium.common.exceptions import NoSuchElementException
+from urllib import parse #分解url并取值
